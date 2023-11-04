@@ -1,0 +1,26 @@
+{
+    "name": "procyon-systems/procyon-yii2-ckeditor5",
+    "description": "A collection of custom widget implementations to enable the use of CKEditor5 in Yii2-based applications.",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yidas/yii2-composer-bower-skip": "*"
+    },
+    "license": "BSD 3-Clause",
+    "autoload": {
+        "psr-4": {
+            "ProcyonSystems\\ProcyonYii2Ckeditor5\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Procyon Systems",
+            "email": "info@procyon-systems.de"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
